@@ -1,0 +1,25 @@
+{
+  "appId": "org.capacitor.quasar.app",
+  "appName": "Pillbug",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "url": "http://192.168.1.114:9500"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "notification_alarm_1",
+      "iconColor": "#488AFF",
+      "sound": "alarmclockshort6402.wav"
+    },
+    "PushNotifications": {
+      "presentationOptions": [
+        "badge",
+        "sound",
+        "alert"
+      ]
+    }
+  }
+}
