@@ -1,0 +1,136 @@
+// app global css in SCSS form
+#top-bar {
+  #settings-foo {
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
+
+.clock-options {
+  visibility: hidden;
+}
+
+.clock-info {
+  width: 300px;
+  height: 100px;
+  color: white;
+  margin-left: 10px;
+}
+
+.time-input {
+  color: white;
+  font-size: 50px;
+}
+
+.intro-text {
+  width: 75%;
+  height: 37vh;
+  margin-left: 12.5%;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 25px
+}
+
+.intro-container {
+  height: 120px;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
+
+.next-btn {
+  margin-left: 41vw;
+}
+
+.time-display {
+  color: white;
+  font-size: 20px;
+  margin-left: 3vw;
+}
+
+.clock-container {
+  width: 92vw;
+  height: 19vh;
+  background-color: #242C64;
+  border-radius: 30px;
+  padding: 13px 10px 10px;
+  margin-left: 4vw;
+  margin-top: 1vh;
+  display: inline-grid;
+}
+
+
+
+.clock-edit {
+  width: 20px;
+  height: 20px;
+  margin-right: 0;
+  left: 91%;
+  bottom: 50%;
+  color: white;
+}
+
+.video-player {
+  width: 500px;
+  height: 500px;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
+.clock-name {
+  font-size: 50px;
+  color: white;
+}
+
+.add-clock-btn {
+  background-color: rgb(222, 224, 255,1);
+  color: #242C64;
+  width: fit-content;
+  margin-left: 40vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh
+}
+
+@keyframes rotateAnim {
+  from {transform: rotate(0deg)}
+  to {transform: rotate(120deg)}
+}
+
+.rotate {
+  animation-name: rotateAnim;
+  animation-duration: .5s;
+}
+
+.center-main {
+  margin-left: 50%;
+  justify-content: center;
+}
+
+.page-link {
+  top: 0;
+  min-width: 0;
+  background-color: #7800A3;
+  width: fit-content;
+  margin-top: 7px;
+  font-size: 20px;
+  color: white;
+  padding: 2px 5px;
+
+}
+// app global css in SCSS form
